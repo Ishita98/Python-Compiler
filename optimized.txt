@@ -1,0 +1,27 @@
+s = 9
+L1:
+t1 = True
+if t1 goto L2
+goto L3
+L3:
+t2 = True
+iffalse t2 goto L4
+t3 = True
+if t3 goto L2
+goto L4
+L4:
+t4 = True
+if t4 goto L2
+goto L5
+L2:
+L6:
+t9 = True
+if t9 goto L7
+goto L8
+L7:
+d = 1
+goto L6
+L8:
+goto L1
+L5:
+print 8
